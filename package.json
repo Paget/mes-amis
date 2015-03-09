@@ -1,9 +1,15 @@
-{ "name": "mesamis",
+{
+  "name": "mesamis",
   "version": "0.0.1",
   "description": "An app to visualize friend data",
   "author": "Paget Fink pagetfink@gmail.com",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Paget/mes-amis" }
+    "url": "https://github.com/Paget/mes-amis"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.0",
+    "express": "^4.12.2"
+  }
 }
